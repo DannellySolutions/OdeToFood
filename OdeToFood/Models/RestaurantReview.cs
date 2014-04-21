@@ -5,11 +5,12 @@ using System.Web;
 
 namespace OdeToFood.Models
 {
-    public class RestauranReview
+    public class RestaurantReview
     {
         public int Id { get; set; }
         public int Rating { get; set; }
         public string Body { get; set; }
-        public int RestaurantReview { get; set; }
+        public string ReviewerName { get; set; }
+        public int RestaurantId { get; set; }
     }
 }

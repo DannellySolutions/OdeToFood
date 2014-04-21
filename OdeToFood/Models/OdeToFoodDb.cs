@@ -10,7 +10,7 @@ namespace OdeToFood.Models
     public class OdeToFoodDb : DbContext
     {
         public DbSet<Restaurant> Restaurants { get; set; }
-        public DbSet<RestauranReview> Review { get; set; }
+        public DbSet<RestaurantReview> Review { get; set; }
     }
     
 }
