@@ -11,7 +11,7 @@ namespace OdeToFood.Controllers
 {
     public class RestaurantController : Controller
     {
-        private OdeToFoodDb _db = new OdeToFoodDb();
+        private OdeToFoodDb _db = new OdeToFoodDb();   /// HELLO ROB
 
         //
         // GET: /Restaurant/
